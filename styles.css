@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 2px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#cuadro {
+    background-color: #403F45;
+    border-color: #AEAF95;
+    color: white;
+}
+
+.btn {
+    background-color: #5B605E;
+    border-color: #403F45;
+}
+
+.btn:hover {
+    border-color: #AEAF95;
+}
+
+#previos {
+    background-color: #AEAF95;
+}
+
+#trabajos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto auto;
+    grid-column-gap: auto;
+}
